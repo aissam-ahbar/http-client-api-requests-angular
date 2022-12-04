@@ -18,6 +18,6 @@ export class AppComponent implements OnInit {
   constructor(private httpClient: HttpClient) {}
 
   ngOnInit() {
-    //this.result = this.httpClient.get(URL);
+    this.result = this.httpClient.get(URL);
   }
 }
